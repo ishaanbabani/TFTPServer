@@ -1,0 +1,28 @@
+v1.2 - I. Babani
+- started changelog.txt
+- removed all packet public classes (RRQPacket.java, WRQPacket.java, etc.)
+- added new public class Packet.java
+	-serves same purpose as other public classes
+	-complete with build() and dissect() methods
+__________________________________________________________________________
+v1.4 - I. Babani
+- added uploading feature (tested, works)
+- added downloading feature (tested, does not work)
+__________________________________________________________________________
+v1.5 - I. Babani
+- finished uploading/downloading client-side(error checking not implemented currently)
+- client bare function complete
+__________________________________________________________________________
+v1.6 - I. Babani
+- finished uploading/downloading server-side(error checking not implemented currently)
+- server bare function complete
+- client/server compatibility
+__________________________________________________________________________
+v1.7 - coming soon
+changes hoping to be implemented:
+- full error-checking
+	- error packet building/sending/dissecting
+	- make bulletproof (catch all exceptions)
+- update progress/confirmation messages
+	- currently not in place
+__________________________________________________________________________
